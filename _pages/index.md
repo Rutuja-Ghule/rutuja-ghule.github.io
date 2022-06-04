@@ -1,5 +1,5 @@
 ---
-title: Articles
+title: Work
 layout: defaults/page
 permalink: index.html
 narrow: true
@@ -10,7 +10,7 @@ narrow: true
 <h2><a class="post-link" href="{{site.baseurl}}{{post.url}}">
     <u><b>{{ post.title }}</b></u>
 </a></h2>
-<!-- {{ post.date | date: '%d %B %Y' }} -->
+{{ post.date | date: '%d %B %Y' }} 
 {% endfor %}
 
 
