@@ -2,10 +2,10 @@
   href: list/portfolio.html
 
 - title: Articles
-  href: index.html
+  href: list/posts.html
 
 - title: Side Projects
   href: list/projects.html
 
 - title: About
-  href: about.html
+  href: index.html

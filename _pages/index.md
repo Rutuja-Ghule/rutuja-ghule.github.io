@@ -1,16 +1,14 @@
 ---
-title: Work
+title: About
 layout: defaults/page
 permalink: index.html
 narrow: true
 ---
 
 
-{% for post in site.posts %}
-<h2><a class="post-link" href="{{site.baseurl}}{{post.url}}">
-    <u><b>{{ post.title }}</b></u>
-</a></h2>
-{{ post.date | date: '%d %B %Y' }} 
-{% endfor %}
+{% include components/intro.md %}
+<!-- 
+<hr />
 
+I am Rutuja, a software engineer from Pune, India. I am an avid reader, loves to travel and a tinkerer. Welcome to catalog of my thoughts.
 
