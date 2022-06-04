@@ -1,8 +1,8 @@
-- title: Work Experience
-  href: list/portfolio.html
-
 - title: Blog
   href: index.html
+
+- title: Work Experience
+  href: list/portfolio.html
 
 - title: Side Projects
   href: list/projects.html
